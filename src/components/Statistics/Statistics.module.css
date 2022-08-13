@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+.item:nth-child(4) {
+  margin: 40px 0;
+}
+.item:nth-child(-n + 3) .text {
+  color: #2378f8;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(36, 169, 255, 0);
+}
+
+.item:nth-last-child(-n + 2) .text {
+  color: #ffee00;
+
+  text-shadow: 0 1px 0 #2381ec, 0 2px 0 #11b1f0, 0 3px 0 rgb(50, 111, 241), 0 4px 0 #4b69ee,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15),
+    2px 14px 2px rgba(255, 246, 36, 0), 2px 14px 2px rgba(255, 246, 36, 0),
+    2px 14px 2px rgba(255, 246, 36, 0), 2px 14px 2px rgba(255, 246, 36, 0);
+}
+
+.item:nth-child(-n + 3) .value {
+  margin-left: 10px;
+  color: #ffee00;
+
+  text-shadow: 0 1px 0 #2381ec, 0 2px 0 #11b1f0, 0 3px 0 rgb(50, 111, 241), 0 4px 0 #4b69ee,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15),
+    2px 14px 2px rgba(255, 246, 36, 0), 2px 14px 2px rgba(255, 246, 36, 0),
+    2px 14px 2px rgba(255, 246, 36, 0), 2px 14px 2px rgba(255, 246, 36, 0);
+}
+
+.item:nth-last-child(-n + 2) .value {
+  color: #2378f8;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15), 2px 2px 2px rgba(36, 169, 255, 0);
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.item:nth-child(4) .text {
+  font-size: 60px;
+}

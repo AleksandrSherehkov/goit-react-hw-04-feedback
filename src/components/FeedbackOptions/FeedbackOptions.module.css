@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.item:nth-of-type(2n) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bold;
+
+  width: 150px;
+  height: 60px;
+
+  background-color: #3e6ff5;
+  color: #f1ee09;
+  border: 8px ridge #f1ee09;
+  border-radius: 40px 40px 40px 40px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: background-color, color var(----main-animation-hover);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #dbd93d;
+  color: #265cf3;
+}

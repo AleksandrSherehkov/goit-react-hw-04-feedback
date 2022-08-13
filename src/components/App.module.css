@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  width: 1600px;
+  margin: 100px auto;
+}
+
+.wrapper {
+  width: 600px;
+  padding: 50px;
+  border: 1px solid #eef107;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.75);
+
+  background: linear-gradient(to bottom, #0082ff 0%, #ffeb00 68%, #fffc00 100%);
+}
